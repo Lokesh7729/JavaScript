@@ -1,0 +1,7 @@
+{"name":"Lokesh Chauhan",
+    "age":30,
+    "email":"lokesh@example.com",
+    "isSubscribed":true,
+    "hobbies":["Reading","Running","Cooking","Coding"],
+    "address":{"city":"Indore","zipCode":"400000"}
+}
