@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color changer</title>
+    <style>
+        body{
+            /* background-color: #444; */
+            color: black;
+        }
+        h1{
+            text-align: center;
+            font-size: 3rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .button{
+            height: 10rem;
+            width: 10rem;
+            background-color: green;
+            border: 2px solid black;
+        }
+        .cont{
+            display:flex;
+            gap: 1rem;
+            justify-content: center;;
+        }
+        #plum{
+            background-color: plum;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #white{
+            background-color: white;
+        }
+        #yellow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Color Switcher</h1>
+    <div class="cont">
+    <p class="button" id="plum"></p>
+    <p class="button" id="blue" ></p>
+    <p class="button" id="white"></p>
+    <p class="button" id="yellow"></p>
+</div>
+</body>
+<script>
+    const btn = document.querySelectorAll('.button')
+    const body= document.querySelector('body')
+
+    btn.forEach((button)=>{
+        console.log(button);
+        button.addEventListener('click', function(e){
+            console.log(e);
+            console.log(e.target);
+            switch (e.target) {
+                case plum:
+                    body.style.backgroundColor=e.target.id;
+                    break;
+                case blue:
+                    body.style.backgroundColor=e.target.id;
+                    break;
+                case white:
+                    body.style.backgroundColor=e.target.id;
+                    break;
+                case yellow:
+                    body.style.backgroundColor=e.target.id;
+                    break;
+            default:
+                break;
+            }
+        })
+    })
+</script>
+</html>
