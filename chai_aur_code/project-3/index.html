@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background-color: #333;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .center{
+            margin: auto;
+            /* background-color: #444; */
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        #clock{
+            background-color: orange;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 3rem;
+            width: 10rem;
+            border-radius: 10px;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div id="banner"><span>Your Time</span></div>
+        <div id="clock"></div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
