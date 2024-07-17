@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+  background-color: #444;
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.btn {
+  font-size: 1.2rem;
+  padding: 1rem 4rem;
+  border-radius: 5px;
+  border: none;
+}
+#start:hover{
+  background-color: rgb(143, 213, 237);
+}
+#stop:hover{
+  background-color: lightcoral;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+
+}
