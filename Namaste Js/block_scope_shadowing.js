@@ -1,3 +1,8 @@
+// scopes
+// 1 -> Global scoped     - var 
+// 2 -> Function scoped   - var , let , const 
+// 3 -> Blocked scoped    - let, const 
+
 {
   // block
   // Compound statement
@@ -27,7 +32,7 @@ console.log(a);
 console.log("shadowing ...");
 
 var a = 100;
-let b=200;
+let b = 200;
 {
   var a = 10;
   let b = 20;
@@ -39,4 +44,5 @@ let b=200;
 console.log(a);
 console.log(b);
 
-
+// Variable shadowing occurs when an inner scope declares a variable with the same name as an outer scope.
+// This results in the inner scope’s variable overriding the outer scope’s variable and shadowing it.
