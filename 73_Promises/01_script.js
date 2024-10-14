@@ -21,7 +21,7 @@
 //     proceedToPayment(orderId);
 // });
 
-//  it gives guarantee that it will call this call back fucntion whenever ther is data inside promise object
+//  it gives guarantee that it will call this call back fucntion whenever there is data inside promise object
 // it call it only once
 
 // -------------------------------------------------------------
